@@ -1,0 +1,75 @@
+.menu {
+    background-color: black;
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    z-index: 100;
+    position:fixed;
+}
+
+label {
+    color: #d1d1d1;
+    font-size: 40px;
+    align-self: center;
+    font-family: arial;
+}
+
+.menu-items {
+    color: grey;
+    display: flex;
+    list-style: none;
+    align-self: center;
+}
+
+a {
+    margin-right: 30px;
+    color: #fff;
+    text-decoration: none
+}
+
+.search {
+    float: right;
+    align-self: center;
+    position: fixed;
+    right: 0;
+}
+
+.search-input {
+
+    height: 30px;
+    min-width: 50%;
+    border-radius: 5px;
+    margin: none;
+}
+
+
+
+body {
+    background: grey;
+}
+
+button {
+    margin: 10px 10px;
+    height: 35px;
+    border-radius: 5px;
+    border: solid 2px green;
+    color: green;
+}
+
+a:hover {
+    border: solid #d1d1d1;
+    border-radius: 5px;
+    display: inline-block;
+    padding: none;
+    box-sizing: border-box;
+}
+
+.caja1 {
+    height: 100vh;
+    width: 70vw;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    margin: auto;
+}
